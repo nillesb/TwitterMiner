@@ -11,13 +11,11 @@ from tweepy import Cursor
 import numpy as np
 import pandas as pd
 
-consumer_key = '3uMAyqlOxYna5eF3hEiOfdwfh'
-consumer_secret = 'Kbyhk5mQelz7DuXPDuOgOLIwsG8wgT4eXS9iliGfB3sFe5gmDO'
-access_token = '1437828898201522178-wcsbcVFG7KiFdu8FcUifMTk4ZVHm3e'
-access_secret = '7RfPRJxiO7FSGyut4FBlwmkvecO7Jpl6kR6pKdLo0zOzM'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
 
-
-# Bearer token = AAAAAAAAAAAAAAAAAAAAACfwTgEAAAAAUypMB5KzQri5Ka%2BxpM9ccT3fX6Q%3DMS39YqyHDocpIWc6mpNHdRrLOHsBRKq3AXluOrDjdRemweQb0y
 class TwitterClient:
     def __init__(self, twitter_user=None):
         self.auth = TwitterAuthenticator().authenticate_twitter_app()
